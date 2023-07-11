@@ -1,0 +1,1506 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "0.1.9",
+    "title": "Ecommerce API",
+    "description": "A Project Ecommerce App API"
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://localhost:4000/api/v1/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Authentication",
+      "description": "API for authentication in the system"
+    },
+
+    {
+      "name": "Product",
+      "description": "API for product in the system"
+    },
+
+    {
+      "name": "User",
+      "description": "API for user in the system"
+    },
+
+    {
+      "name": "Order",
+      "description": "API for order in the system"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/products": {
+      "get": {
+        "summary": "Get All Products",
+        "description": "Get All Products",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "description": "The keyword to search",
+            "type": "string"
+          },
+
+          {
+            "name": "category",
+            "in": "query",
+            "description": "The category to filter",
+            "type": "string"
+          },
+
+          {
+            "name": "price[gte]",
+            "in": "query",
+            "description": "The lowest price to search",
+            "type": "number"
+          },
+
+          {
+            "name": "price[lt]",
+            "in": "query",
+            "description": "The highest price to search",
+            "type": "number"
+          },
+
+          {
+            "name": "page",
+            "in": "query",
+            "description": "The page to pagination",
+            "type": "number"
+          }
+        ],
+        "tags": ["Product"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/product/new": {
+      "post": {
+        "summary": "Add New Product --admin",
+        "description": "Add New Product --admin",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "tags": ["Product"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/product/{id}": {
+      "put": {
+        "summary": "Update Product --admin",
+        "description": "Update Product --admin",
+        "produces": ["application/json"],
+        "tags": ["Product"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of product that we want to find",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "product",
+            "description": "Product with new values of properties",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+
+      "delete": {
+        "summary": "Delete Product --admin",
+        "description": "Delete Product --admin",
+        "produces": ["application/json"],
+        "tags": ["Product"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of product that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/product/{id}": {
+      "get": {
+        "summary": "Get product detail",
+        "description": "Get product detail",
+        "produces": ["application/json"],
+        "tags": ["Product"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of product that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/review": {
+      "put": {
+        "summary": "Create or Update the review",
+        "description": "Create or Update the review",
+        "produces": ["application/json"],
+        "tags": ["Product"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Review",
+            "description": "Review with new values of properties",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdateorCreateReview"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/reviews": {
+      "get": {
+        "summary": "Get All Reviews ",
+        "description": "Get All Reviews ",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "query",
+            "description": "The Product ID that needs to be found",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": ["Product"],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+
+      "delete": {
+        "summary": "Delete Review",
+        "description": "Delete Review",
+        "produces": ["application/json"],
+        "tags": ["Product"],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "query",
+            "description": "The Product ID that needs to be found",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "reviewId",
+            "in": "query",
+            "description": "The Review ID that needs to be found",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    },
+
+    "/register": {
+      "post": {
+        "summary": "Register New User",
+        "description": "Register New User",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "tags": ["Authentication"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/Register"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/login": {
+      "post": {
+        "summary": "Login",
+        "description": "Login",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "tags": ["Authentication"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/password/forgot": {
+      "post": {
+        "summary": "Forgot Password",
+        "description": "Forgot Password",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "tags": ["Authentication"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/ForgotPassword"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/password/reset/{token}": {
+      "put": {
+        "summary": "Reset Password",
+        "description": "Reset Password",
+        "produces": ["application/json"],
+        "tags": ["Authentication"],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Token that we want to reset",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "auth",
+            "description": "Insert password and confirm password",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ResetPassword"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/logout": {
+      "get": {
+        "summary": "Logout",
+        "description": "Logout",
+        "produces": ["application/json"],
+        "tags": ["Authentication"],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/ValidResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/me": {
+      "get": {
+        "summary": "Get User Detail",
+        "description": "Get User Detail",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/password/update": {
+      "put": {
+        "summary": "Update Password",
+        "description": "Update Password",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "auth",
+            "description": "Insert old/new password and confirm password",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdatePassword"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/ValidResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/me/update": {
+      "put": {
+        "summary": "Update Information",
+        "description": "Update Information",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "auth",
+            "description": "Insert new information",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdateInformation"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/ValidResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/users": {
+      "get": {
+        "summary": "Get All Users --admin",
+        "description": "Get All Users --admin",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/user/{id}": {
+      "get": {
+        "summary": "Get Single User --admin",
+        "description": "Get Single User --admin",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of user that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update User Role --admin",
+        "description": "Update User Role --admin",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "auth",
+            "description": "Insert new role",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UpdateUserRole"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/ValidResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete User --admin",
+        "description": "Delete User --admin",
+        "produces": ["application/json"],
+        "tags": ["User"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of user that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ValidResponse"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    },
+
+    "/order/new": {
+      "post": {
+        "summary": "Create New Order",
+        "description": "Create New Order",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "tags": ["Order"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/CreateNewOrder"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Order"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/order/{id}": {
+      "get": {
+        "summary": "Get Single Order",
+        "description": "Get Single Order",
+        "produces": ["application/json"],
+        "tags": ["Order"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of user that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Order"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/orders/me": {
+      "get": {
+        "summary": "Get My Order",
+        "description": "Get My Order",
+        "produces": ["application/json"],
+        "tags": ["Order"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Order"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/orders": {
+      "get": {
+        "summary": "Get All Order --admin",
+        "description": "Get All Order --admin",
+        "produces": ["application/json"],
+        "tags": ["Order"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/Order"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/order/{id}": {
+      "put": {
+        "summary": "Update/Process Order --admin",
+        "description": "Update/Process Order --admin",
+        "produces": ["application/json"],
+        "tags": ["Order"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of order that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/definitions/UpdateOrder"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/ValidResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/definitions/InvalidResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete Order --admin",
+        "description": "Delete Order --admin",
+        "produces": ["application/json"],
+        "tags": ["Order"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of user that we want to find",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ValidResponse"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    }
+
+  },
+  "definitions": {
+    "Product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "des": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "public_id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "category": {
+          "type": "string"
+        },
+        "stock": {
+          "type": "number"
+        }
+      }
+    },
+
+    "User": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "avatar": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "public_id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "role": {
+          "type": "string"
+        }
+      }
+    },
+
+    "Order": {
+      "type": "object",
+      "properties": {
+        "shippingInfo": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "address": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "pinCode": {
+                "type": "number"
+              },
+              "phoneNo": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "orderItems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "image": {
+                "type": "string"
+              },
+              "product": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "UpdateorCreateReview": {
+      "type": "object",
+      "properties": {
+        "productId": {
+          "type": "string"
+        },
+        "comment": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "number"
+        }
+      }
+    },
+
+    "Register": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+
+    "Login": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+
+    "ForgotPassword": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+
+    "ResetPassword": {
+      "type": "object",
+      "properties": {
+        "password": {
+          "type": "string"
+        },
+        "confirmPassword": {
+          "type": "string"
+        }
+      }
+    },
+
+    "UpdatePassword": {
+      "type": "object",
+      "properties": {
+        "oldPassword": {
+          "type": "string"
+        },
+        "newPassword": {
+          "type": "string"
+        },
+        "confirmPassword": {
+          "type": "string"
+        }
+      }
+    },
+
+    "UpdateInformation": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+
+    "UpdateUserRole": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      }
+    },
+
+    "CreateNewOrder": {
+      "type": "object",
+      "properties": {
+        "itemPrice": {
+          "type": "number"
+        },
+        "taxPrice": {
+          "type": "number"
+        },
+        "shippingPrice": {
+          "type": "number"
+        },
+        "totalPrice": {
+          "type": "number"
+        },
+        "orderItems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "image": {
+                "type": "string"
+              },
+              "product": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "shippingInfo": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "address": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "pinCode": {
+                "type": "number"
+              },
+              "phoneNo": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "paymentInfo": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "UpdateOrder": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+
+    "ValidResponse": {
+      "type": "object",
+      "properties": {
+        "statusCode": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+
+    "InvalidResponse": {
+      "type": "object",
+      "properties": {
+        "statusCode": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
