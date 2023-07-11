@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
 
-app.use(cors({ credentials: true, origin: "http://localhost:10000" }));
+app.use(cors({ credentials: true, origin: "*" }));
 
 // Set Up Swagger
 const swaggerDocument = require("./config/swagger.json");
