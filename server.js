@@ -27,23 +27,6 @@ const server = app.listen(process.env.PORT, () => {
   console.log(`listening on port ${process.env.PORT}`);
 });
 
-const io = socket(server, {
-  cors: {
-    origin: "http://localhost:3000",
-    credentials: true,
-  },
-});
-
-io.on("connection", (socket) => {
-  socket.on("add-user", (userId) => {
-    socket.join(userId);
-  });
-
-  socket.on("send-msg", (data) => {
-    socket.to(data.to).emit("msg-recieve", data.msg);
-  });
-});
-
 // Unhandled Promise Rejection
 process.on("unhandledRejection", (err) => {
   console.log(`Error: ${err.message}`);
