@@ -1,4 +1,3 @@
-//DB_URI = "mongodb://127.0.0.1/Ecommerce"
 const mongoose = require("mongoose");
 
 const connectDatabase = () => {
