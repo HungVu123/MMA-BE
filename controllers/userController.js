@@ -15,6 +15,12 @@ const registerUser = catchAsyncErrors(async (req, res, next) => {
     name,
     email,
     password,
+    avatar: {
+      public_id: "this is sample id",
+      url: "https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg",
+    },
+    gender: "none",
+    birthDate: "1/1/2023",
   });
 
   sendToken(user, 201, res);
@@ -360,6 +366,8 @@ const updateProfile = catchAsyncErrors(async (req, res, next) => {
   const newUserData = {
     name: req.body.name,
     email: req.body.email,
+    birthDate: req.body.birthDate,
+    gender: req.body.gender,
   };
 
   //add cloudinary
