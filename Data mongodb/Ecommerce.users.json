@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "name": "Hungadmindz",
+  "email": "admin12345@gmail.com",
+  "password": "$2a$10$Mw.J/eZ0BR8UUC/XvUKRzegpDiiMeuAGdc6SH.uAd73ROXeg7rTiu",
+  "avatar": {
+    "public_id": "avatars/dwgrl2fvkk8ko4oxcfxr",
+    "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png"
+  },
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644b7f650b750a332e5ca7e2"
+  },
+  "name": "Hungdeptrai",
+  "email": "vonglaucac123@gmail.com",
+  "password": "$2a$10$pXWvixBPig3ZI9wf./W/1OSzzwASTlyJtwBQsTZZc3Ynl5JO3mLJS",
+  "avatar": {
+    "public_id": "avatars/tqzvqhkh4dmeysyqqoaa",
+    "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1682669412/avatars/tqzvqhkh4dmeysyqqoaa.png"
+  },
+  "role": "user",
+  "shippingInfos": [
+    {
+      "address": "1/4d Xuan Thoi Thuong",
+      "city": "HCM",
+      "state": "VietNam",
+      "country": "VietNam",
+      "pinCode": 8593,
+      "phoneNo": {
+        "$numberLong": "932951234124"
+      },
+      "_id": {
+        "$oid": "644b7f820b750a332e5ca7fa"
+      }
+    },
+    {
+      "address": "Xuan Thoi Thuong",
+      "city": "hcm",
+      "state": "10",
+      "country": "BB",
+      "pinCode": 123,
+      "phoneNo": 1234567890,
+      "_id": {
+        "$oid": "64515927eae7b7ad307fbcfd"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-28T08:10:13.047Z"
+  },
+  "__v": 83,
+  "resetPasswordExpire": {
+    "$date": "2023-05-17T16:58:43.934Z"
+  },
+  "resetPasswordToken": "3bf0b795574353ea2227931b8d3c902c2ef3d095ee13410aab3798994199ad4b"
+},
+{
+  "_id": {
+    "$oid": "6471dbad7f94c18801d40cfc"
+  },
+  "name": "hung",
+  "email": "hungdeptrai@gmail.com",
+  "password": "$2a$10$OtIqnq4OdJoyD7KLwEYB2ujQouGF9bh2f0CEBBDfbBn2siqG1W3qW",
+  "avatar": {
+    "public_id": "avatars/uacuq6tjgie4ecofgtok",
+    "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1685183404/avatars/uacuq6tjgie4ecofgtok.jpg"
+  },
+  "role": "user",
+  "shippingInfos": [],
+  "createdAt": {
+    "$date": "2023-05-27T10:30:05.155Z"
+  },
+  "__v": 0
+}]
