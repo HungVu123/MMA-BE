@@ -1,0 +1,950 @@
+[{
+  "_id": {
+    "$oid": "64ad3ab5342961feeccd56c5"
+  },
+  "name": "Toucan",
+  "des": "The toucan is one of the beautiful beast bird which belongs to a family of Ramphastidae. This family is closely related to American barbets. The name of this bird is from Portuguese. Toucans mass ranges between 130 g -680 g, and its length lie in between 11.5 inches to 29 inches. Their bodies are short, and size is comparable to crow. Its tail is rounded and varies in length to the whole body. Its wings are small, and the neck is thick and short. These birds travel only short distances as they are forest-dwelling birds. Its tongue varies from 14-15 cm, which is a narrow and grey color. It understands the taste and is sensitive to it.\n\nall types of birds\nSave\n\nToucan’s lives in subtropical and tropical regions and are a native of Central America, Southern Mexico, the northern portion of the Caribbean region and South America. As they are arboreal, they lay white eggs from 2-21. These are generally found in pairs. Toucans are omnivores, and their prey includes fruits, insects, and small lizards.",
+  "price": 500,
+  "ratings": 4.5,
+  "images": [
+    {
+      "public_id": "products/hwjpahhte8lt9i9zkjwx",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074358/products/hwjpahhte8lt9i9zkjwx.jpg",
+      "_id": {
+        "$oid": "64ad3ab5342961feeccd56c6"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 10,
+  "numOfReviews": 1,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6431c4067a775988a3a15a1e"
+      },
+      "name": "Hungadmindz",
+      "avatarUrl": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png",
+      "rating": 4.5,
+      "comment": "Okey123",
+      "_id": {
+        "$oid": "64b565e3487d4a0618fc9229"
+      },
+      "createReviewAt": {
+        "$date": "2023-07-17T16:01:39.364Z"
+      }
+    }
+  ],
+  "createAt": {
+    "$date": "2023-07-11T11:19:17.669Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "64ad3b62342961feeccd56cf"
+  },
+  "name": "Toucanet",
+  "des": "Like other toucans, the emerald toucanet is brightly marked and has a large bill. Adults are 29 to 37 cm (11 to 15 in) long and weigh about 150 to 240 g (5.3 to 8.5 oz). The sexes are alike in appearance although the female generally is smaller and shorter-billed. Their bill has a black mandible, a yellow maxilla with a black patch near the nares, and a white vertical strip at its base. All subspecies have plumage that is mainly green like that of other members of genus Aulacorhynchus, and is somewhat lighter below than above. The nominate's crown has a bronze tinge and its nape and upper back a yellowy bronze tint. Their eye is dark brown surrounded by even darker bare skin. Their lower face and throat are white. Their flanks are bright yellow-green to green-yellow and their undertail coverts and the underside of the tail are chestnut. The base of their tail's upper surface is green becoming blue towards the end and the tips of the feathers are chestnut. Subspecies A. p. warneri has a yellowish wash on its throat and some yellow on the face. A. p. virescens is slightly smaller than the nominate. It has a yellower face and throat, more yellow on the flanks, and darker chestnut tips on the tail feathers. A. p. volcanius is similar to the nominate but paler overall and slightly smaller. Immatures are grayer than adults and the chestnut of the tail tips is browner and smaller.",
+  "price": 300,
+  "ratings": 4.5,
+  "images": [
+    {
+      "public_id": "products/y9ledkjme1xrwewuprh1",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074531/products/y9ledkjme1xrwewuprh1.jpg",
+      "_id": {
+        "$oid": "64ad3b62342961feeccd56d0"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 5,
+  "numOfReviews": 1,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6431c4067a775988a3a15a1e"
+      },
+      "name": "Hungadmindz",
+      "avatarUrl": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png",
+      "rating": 4.5,
+      "comment": "Okey123",
+      "_id": {
+        "$oid": "64b565ed487d4a0618fc922e"
+      },
+      "createReviewAt": {
+        "$date": "2023-07-17T16:01:49.856Z"
+      }
+    }
+  ],
+  "createAt": {
+    "$date": "2023-07-11T11:22:10.269Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "64ad3bca342961feeccd56db"
+  },
+  "name": "Aracari",
+  "des": "An aracari is any of the medium-sized toucans that, together with the saffron toucanet, make up the genus Pteroglossus.\nThey are brightly plumaged and have enormous, contrastingly patterned bills. These birds are residents in forests and woodlands in the Neotropics.",
+  "price": 400,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/aoksbspwapbivtyoohaf",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074635/products/aoksbspwapbivtyoohaf.jpg",
+      "_id": {
+        "$oid": "64ad3bca342961feeccd56dc"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 8,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:23:54.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3c5a342961feeccd56e9"
+  },
+  "name": "King Fisher",
+  "des": "Kingfisher belongs to a family of Alcedinidae and has three other families like Alcedinidae, Halcyonidae, and Cerylidae. This beautiful bird belongs to the families that contain rivers, trees, and water kingfishers. There are about 90 species in kingfishers.\n\nKingfisher has a large head, sharp, long, and pointed bills with short legs and stubby tails. Most of the species have plumage with differences in their sexes. These are mostly found in forests in tropical regions. They generally feed on fish and a wide range of prey. They love to live near rivers to eat fish. Their nest will be in cavities; tunnels dug into artificial banks in the ground. A quarter of kingfishers lives in unused termite nests.\nThe smallest species of kingfisher is African dwarf kingfisher, a mass average of 10.4 g and length is 10 cm. The largest kingfisher is a giant kingfisher, its mass average being 355 g and 45 cm in length. The plumage of most kingfishers is bright, in blue and green. Kingfishers have a long, dagger-like bill that is used for hunting fish and prey off the ground.\n\nThey generally have short legs with four toes, out of which three points in the forward direction. These are carnivores, and their prey includes fish, reptiles, and frogs, etc. Their eggs are invariably white and glossy. Clutch size varies between species. Each clutch has two eggs. Sometimes they lay ten and average of 3-6 eggs. Incubation is worked both male and female. Offspring stay with their parents until 3-4 months. Their prey is mostly insects, dragonflies, and bees, etc.",
+  "price": 323,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/wbhzewq6laimxmvhijqf",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074779/products/wbhzewq6laimxmvhijqf.jpg",
+      "_id": {
+        "$oid": "64ad3c5a342961feeccd56ea"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 7,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:26:18.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3cc9342961feeccd5724"
+  },
+  "name": "Swift",
+  "des": "Swift belongs to a family of Apodidae of highly aerial birds. Treeswifts are closely related to true swifts. This family is derived from Greek, which means footless. These are flying birds and are the fastest fliers and flies about 169 km/h. Common swift can cover at least 200,000 km in a single year. Swift has large wingtip bones.\nThey have the flexibility of changing their angle between wingtip bones and forelimbs to alter the shape and area by maximizing their efficiency and maneuverability. The birds even rotate their wings from the base. They live on all continents, majorly on oceanic islands. They weigh from 5.4 g- 184 g and measure from 9 cm- 25 cm. in length. The nests of these birds are glued to a vertical surface with saliva. Eggs hatch after 19-23 days and leave within six to eight weeks. Both parents incubate these birds.",
+  "price": 600,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/c5bex7on3sz4dfqsuccq",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074890/products/c5bex7on3sz4dfqsuccq.jpg",
+      "_id": {
+        "$oid": "64ad3cc9342961feeccd5725"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 9,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:28:09.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3d0c342961feeccd5736"
+  },
+  "name": "Parrot",
+  "des": "In the types of pet birds, a parrot is one. The scientific name of the parrot is Psittaciformes. They belong to a family of Psittacopasserae. These are mostly found in subtropical and tropical regions. There are about 372 species in existence in 86 general. Their size ranges from 3.5 to 40 inches and a mass of about 2.25 to 56 ounces. These birds live in groups called flocks, and each congregation contains about 20 -30 birds.\nThey are omnivores, meaning; they eat nuts, fruit, and insects, etc. The clutches of parrot contain only two eggs, and the incubation period is about 18-30 days. A newborn parrot is blind for the first two weeks. A chick becomes fully mature only by 1- 4 years, depending on species. The lifespan of a parrot varies from 50- 95 years.",
+  "price": 657,
+  "ratings": 5,
+  "images": [
+    {
+      "public_id": "products/ij3spyjinoidkt5gfy2q",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689074958/products/ij3spyjinoidkt5gfy2q.jpg",
+      "_id": {
+        "$oid": "64ad3d0c342961feeccd5737"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 8,
+  "numOfReviews": 1,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6431c4067a775988a3a15a1e"
+      },
+      "name": "Hungadmindz",
+      "avatarUrl": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png",
+      "rating": 5,
+      "comment": "Okay",
+      "_id": {
+        "$oid": "64b56608487d4a0618fc9238"
+      },
+      "createReviewAt": {
+        "$date": "2023-07-17T16:02:16.107Z"
+      }
+    }
+  ],
+  "createAt": {
+    "$date": "2023-07-11T11:29:16.903Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "64ad3d51342961feeccd574a"
+  },
+  "name": "Humming",
+  "des": "Hummingbird is a small bird and a family member of Trochilidae. And its scientific name is also Trochilidae. These are the smallest birds, which range from 7.5 to 13 cm. These are well known as hummingbirds because when their wings flap, a humming sound is created. They can fly in all directions.\n\nTheir primary food is tree sap, pollen, insects, and flower nectar. The clutch size contains about 1- 3 eggs. Young starts to fly in 18-30 days. These types of birds are known to add beauty to our environment.\n",
+  "price": 123,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/ldvl5hppuangoy8ojnhw",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075026/products/ldvl5hppuangoy8ojnhw.jpg",
+      "_id": {
+        "$oid": "64ad3d51342961feeccd574b"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 10,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:30:25.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3d81342961feeccd5760"
+  },
+  "name": "Columbidae",
+  "des": "Doves and pigeons are family members of Columbidae. There are about 310 species of doves available. These are considered as symbols of love. They weigh about 900 g-2.1 kg. The length of their body ranges for adult male 55 cm, 70 cm for western crowned pigeon, and 13-15 cm for the dwarf. The clutch size is about only 1. Its prey includes seed or fruit. They live mostly in tropical nature and woodlands and are adjustable to any environment. Both parents do incubation. Male birds make woo-hoo sounds to indicate they are single.",
+  "price": 50,
+  "ratings": 4.5,
+  "images": [
+    {
+      "public_id": "products/msgfpapdybsvdteft5lx",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075074/products/msgfpapdybsvdteft5lx.jpg",
+      "_id": {
+        "$oid": "64ad3d81342961feeccd5761"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 23,
+  "numOfReviews": 1,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6431c4067a775988a3a15a1e"
+      },
+      "name": "Hungadmindz",
+      "avatarUrl": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png",
+      "rating": 4.5,
+      "comment": "Okey",
+      "_id": {
+        "$oid": "64b565f9487d4a0618fc9233"
+      },
+      "createReviewAt": {
+        "$date": "2023-07-17T16:02:01.457Z"
+      }
+    }
+  ],
+  "createAt": {
+    "$date": "2023-07-11T11:31:13.255Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "64ad3db4342961feeccd5778"
+  },
+  "name": "Bee-Eater",
+  "des": "The scientific name of the bee-eater is Meropidae, and it is a family member of Meropidae. Twenty-Six different species of bee-eater are at present. These are mostly found in Asia, Africa, and even some parts of Australia, New Guinea, and Europe. They prey on flying insects, bees, etc. One unique character of bee-eater is that before consuming its prey, it removes the stinger of the insect. Its clutch contains 2-9 white eggs. Their nest is, they burrow dugs into the ground. Parents take the incubation of young birds.",
+  "price": 100,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/fnzwscuymyijlfvmkiel",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075125/products/fnzwscuymyijlfvmkiel.jpg",
+      "_id": {
+        "$oid": "64ad3db4342961feeccd5779"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 34,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:32:04.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3de9342961feeccd5790"
+  },
+  "name": "Grebe",
+  "des": "The scientific name of grebe is Podicipedidae. It belongs to a family of Podicipediformes. These birds generally dive in freshwater, and some visit sea during migration in winter. There are about 22 species and six in general. Its mass varies from about 1.7 kg to 120 grams, and body length varies from 23.5 cm to 71 cm. Their primary source of food is fish, and they catch them by diving in open water.",
+  "price": 340,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/t7icqpuvul9kmidbup7z",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075178/products/t7icqpuvul9kmidbup7z.jpg",
+      "_id": {
+        "$oid": "64ad3de9342961feeccd5791"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 25,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:32:57.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3e1c342961feeccd57aa"
+  },
+  "name": "Woodpecker",
+  "des": "The scientific name is Picidae and belongs to a family of Picidae. They mostly live in New Zealand, Australia, Madagascar, New Guinea, and extreme Polar Regions. There are about 200 species. Woodpeckers are usually black, red, yellow, and white. They can peck 20 times per second. They feed on insects and dead trees. The nest contains 2-5 eggs, and the incubation period is about 11-14 days.",
+  "price": 230,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/kbweyfbrpdc9cmz6l432",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075229/products/kbweyfbrpdc9cmz6l432.jpg",
+      "_id": {
+        "$oid": "64ad3e1c342961feeccd57ab"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 212,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:33:48.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ad3e43342961feeccd57ba"
+  },
+  "name": "Penguins",
+  "des": "The scientific name of the penguin is Spheniscidae. It belongs to a family of Sphenisciformes. In the water, it can dive at a speed of 6-9 km/h. Its body mass is about 38kg, and the height varies accordingly from species; 33 cm for a little penguin, 49 cm for Galapagos penguin, and 1.1-1.3 m for the emperor penguin. The maximum life span of a penguin is 20 years. This is yet another kind category of types of birds that we don’t see often.",
+  "price": 540,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/m7jvh2j6xmgzsrdkvhiv",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689075268/products/m7jvh2j6xmgzsrdkvhiv.jpg",
+      "_id": {
+        "$oid": "64ad3e43342961feeccd57bb"
+      }
+    }
+  ],
+  "category": "Birds",
+  "stock": 34,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "64ad3451342961feeccd568a"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-11T11:34:27.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10cd05fd01eb289bfd27a"
+  },
+  "name": "Pack of 4 Lafeber NutriBerries Complete Birds Food",
+  "des": "Nutritious meal for your Parrot in a fun to eat berry shape.\n\nBuy this multipack which includes 1 El Paso, 1 Sunny Orchard, 1 Tropical Fruit and 1 Garden Veggie flavoured NutriBerries and save.\n\nLafeber NutriBerries contain only nutritious, natural ingredients rolled into berry shaped pieces and coated with vitamins and minerals.\n\nEach berry contains the 40 essential nutrients recommended by Dr. T.J. Lafeber which are essential to a bird`s health.",
+  "price": 39.96,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/lfxijp38vjyxg6vlu2rq",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689327906/products/lfxijp38vjyxg6vlu2rq.jpg",
+      "_id": {
+        "$oid": "64b10cd05fd01eb289bfd27b"
+      }
+    }
+  ],
+  "category": "Food",
+  "stock": 43,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T08:52:32.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10d2c5fd01eb289bfd29b"
+  },
+  "name": "Kaytee Bird Greens Pro Health 28g Chia and Sweet Potato Parrot Treat",
+  "des": "It combines a natural blend of alfalfa, parsley, kale, chia seed and sweet potatoes.\n\nNatural vegetation provides the nutritional variety and mental stimulation nature intended, whilst encouraging healthy foraging and eating behaviour.\n\nUsing these Kaytee Bird Greens Pro Health foraging treats, you can add even more variety to your bird's diet.\n\nSprinkle some over the top of your bird`s normal diet or just place some in a separate bowl for them to enjoy. The ingredients have been finely chopped so your bird has to work hard to find these tasty gems.\n\nBy feeding your pet bird these Kaytee Bird Greens with Chia and Sweet Potato you are also helping to raise funds which Kaytee uses towards education, research and conservation projects dedicated to Parrot rehabilitation, re-homing efforts and the preservation of critical natural habitats for threatened and endangered species.",
+  "price": 3.99,
+  "ratings": 5,
+  "images": [
+    {
+      "public_id": "products/vfg1dhqmdzmpwjuukaip",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689327998/products/vfg1dhqmdzmpwjuukaip.jpg",
+      "_id": {
+        "$oid": "64b10d2c5fd01eb289bfd29c"
+      }
+    }
+  ],
+  "category": "Food",
+  "stock": 100,
+  "numOfReviews": 1,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6431c4067a775988a3a15a1e"
+      },
+      "name": "Hungadmindz",
+      "avatarUrl": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1684104676/avatars/dwgrl2fvkk8ko4oxcfxr.png",
+      "rating": 5,
+      "comment": "Okay23",
+      "_id": {
+        "$oid": "64b56612487d4a0618fc923d"
+      },
+      "createReviewAt": {
+        "$date": "2023-07-17T16:02:26.958Z"
+      }
+    }
+  ],
+  "createAt": {
+    "$date": "2023-07-14T08:54:04.233Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "64b10d935fd01eb289bfd2b1"
+  },
+  "name": "Tropical Fruit 284g Complete Bird Food",
+  "des": "Let your Parrot enjoy the fun eating experience of Lafeber NutriBerries.\n\nHave you tried feeding Lafeber NutriBerries to your bird? Let them join in on the fun feeding experience. A complete, nutritious food shaped into berry sized pieces, most Parrots love it so much that some owners even use them as training treats.\n\nMade from all natural ingredients, they are shaped to be especially appealing to birds. The handy size makes each berry easy to hold and they`re perfect for hiding inside foraging devices to keep your Parrot entertained and active.\n\nThe Tropical Fruit variety of NutriBerries is made with papaya, pineapple and mango with added vitamins and minerals. Each berry contains the 40 nutrients, vitamins and minerals essential to health recommended by Dr T J Lafeber.",
+  "price": 10.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/vxhxrfeckqzf90hvjeyd",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328102/products/vxhxrfeckqzf90hvjeyd.jpg",
+      "_id": {
+        "$oid": "64b10d935fd01eb289bfd2b2"
+      }
+    }
+  ],
+  "category": "Food",
+  "stock": 300,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T08:55:47.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10df85fd01eb289bfd2c9"
+  },
+  "name": "Xylophone Musical Parrot Toy",
+  "des": "Let your Parrot enjoy playing their Xylophone.\n\nThis Xylophone Musical Parrot Toy is perfect if your Parrot adores toys which make just as much noise as they do.\n \nYour Parrot can either beak it, or use the drumstick provided to make some lovely sounds. \n \nComes with some instructions so you can teach your bird to play simple tunes.\n \nPlease Note: We recommend you supervise your bird at all times whilst playing with this toy.",
+  "price": 4.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/dnosuge8npliwqummdii",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328203/products/dnosuge8npliwqummdii.jpg",
+      "_id": {
+        "$oid": "64b10df85fd01eb289bfd2ca"
+      }
+    }
+  ],
+  "category": "Toys",
+  "stock": 230,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T08:57:28.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10e785fd01eb289bfd2e3"
+  },
+  "name": "Caterpillar Wood & Rope Parrot Toy",
+  "des": "A chewable delight of wood and leather for your Parrot to explore.\n\nFrom the trusted Zoo-Max range, this Caterpillar Wood and Rope Parrot Toy is perfect for your smaller Parrot.\n\nThere’s lots of knotted leather and rope strips, perfect for your Parrot to enjoy untying, unravelling and preening on. Having materials to preen can help prevent unwanted over preening behaviours, helping to keep your Parrot looking beautiful.\n\nThe wood pieces are perfect for chewing on for a healthy and trim beak.\n\nUse the metal pear link provided to quickly and securely fasten this Caterpillar Toy to your bird’s cage or play gym stand.",
+  "price": 9.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/blo2jzkf1oksqrvepgmc",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328331/products/blo2jzkf1oksqrvepgmc.jpg",
+      "_id": {
+        "$oid": "64b10e785fd01eb289bfd2e4"
+      }
+    }
+  ],
+  "category": "Toys",
+  "stock": 210,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T08:59:36.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10eba5fd01eb289bfd2fd"
+  },
+  "name": "Cutie Pitootie Parrot Toy - Large",
+  "des": "Let’s have rip-roaring fun time.\n\nThis Cutie Pitootie Parrot Toy – Large has loads of fun to shred materials to entertain your Parrot.\n\nFastened to a metal wire core are four chunky birdie bangles, rolls of corrugated paper and a large vine ball. All providing hours of shredding and unravelling fun.\n\nYou can push treats inside the corrugated paper and woven vine ball, as well as wedging them into the grooves on the wood blocks for your Parrot to enjoy foraging for.\n\nAll the wood parts are fun for your beaky buddy to chew on, helping to keep their beak healthy and trim.\n\nAs your Parrot plays, a shiny bell chimes merrily away for noise-making fun.\n\nUse the metal quick link provided to quickly and easily fasten this Cutie Pitootie Parrot Toy – Large to your bird’s cage or play gym stand.",
+  "price": 6.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/wgjjsbkr3cytnlnyr6fg",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328396/products/wgjjsbkr3cytnlnyr6fg.jpg",
+      "_id": {
+        "$oid": "64b10eba5fd01eb289bfd2fe"
+      }
+    }
+  ],
+  "category": "Toys",
+  "stock": 301,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:00:42.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10f7a5fd01eb289bfd317"
+  },
+  "name": "Travel Cage Medium Antique",
+  "des": "Versatile cage for travelling and more.\n\nThe Parrot Travel Cage has many uses, it is great for any time you need to transport your Parrot to the vets, or as a temporary ‘home away from home’, or to keep them safe whilst enjoying time with you in your garden.\n\nThe handle at the top doubles as a perch for your feathered friend.\n\nThe stainless-steel food and/or water bowls are fitted to swing-out feeder doors, for easy and stress-free access.\n\nThere’s a wood dowel starter perch to help your bird feel at home.\n\nThe large front door, slide-out grille and separate tray make it easy to access and clean your Parrot Travel Cage – Medium.\n\nIt’s simple to put together, so you and your Parrot can enjoy journeys out together in minutes.",
+  "price": 99.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/oqlis31vgbydhyav3tfc",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328589/products/oqlis31vgbydhyav3tfc.jpg",
+      "_id": {
+        "$oid": "64b10f7a5fd01eb289bfd318"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 5,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:03:54.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10fc15fd01eb289bfd331"
+  },
+  "name": "Barcelona Play Top Cage",
+  "des": "A generously sized cage with a play top section for Parrots.\n\nThis wonderful Barcelona Play Top Parrot Cage with its play gym top section has everything you and your Parrot wants from a cage.\n\nThe play top area gives your Parrot ample room to play and exercise outside of their cage. There's a long wood perch for your Parrot to sit comfortably on and observe their surroundings, ladders to climb around on; promoting exercise, plus feeding dishes so your bird can always have easy access to food, fresh water or even fun to play with foot toys and materials.\n\nThe play top section has its own tray, which collects any mess your bird makes. To make your life easier it can be removed for cleaning. You may also choose to remove the tray whilst your Parrot is inside their cage to allow more light in.\n\nInside the Barcelona Cage is a large wood perch which fits the full width of the cage. Plus there are two more feeding bowls, fitted to swing-out doors making refilling them with delicious treats and fresh water a doddle. Don't forget that using foraging toys is a much more stimulating way to feed your Parrot.\n\nThe Barcelona Cage has both horizontal and vertical bars so your Parrot can easily climb around.\n\nA large front door makes it easier for you to access the cage for getting your bird in and out, and for cleaning and maintenance. The seed catchers help prevent food going outside of the cage and keep mess confined to the bottom of the cage instead, where a pull out tray and grille are fitted.\n\nOnce the door is closed, the lock keeps your bird safely inside their cage.\n\nThe cage sits on castors that make moving your Parrot's Barcelona Cage easy.",
+  "price": 339.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/jziikwxmao6z831cxlv5",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328660/products/jziikwxmao6z831cxlv5.jpg",
+      "_id": {
+        "$oid": "64b10fc15fd01eb289bfd332"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 34,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:05:05.335Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b10ffb5fd01eb289bfd34b"
+  },
+  "name": "Siam Small Bird Cage",
+  "des": "A quality cage from the extensive Liberta Cages range, providing excellent value for money.\n\nFinished with an oven baked powder coat non toxic paint, this Siam Small Bird Cage is made to the same high standard you have come to expect from Liberta Cages.\n\nEasy to put together, your bird can be checking out their new home in no time. Secure and comfortable, your bird's Siam cage comes with one wood perch, a swing and two feeding bowls. You can access the feeders from outside of the cage, so no need to open doors and risk your bird escaping. Being able to remove and replace the feeders without accessing the cage also helps to reduce any stress on your bird.\n\nThe base is secured using four clips, and the plastic design makes it easy to wipe clean. There is also a pull out tray so you can clean the bottom of the cage, replace sand sheets etc, again without having to access the cage and risk stressing your bird.",
+  "price": 36.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/aqhyvkzkti3tnlf3njpe",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689328717/products/aqhyvkzkti3tnlf3njpe.jpg",
+      "_id": {
+        "$oid": "64b10ffb5fd01eb289bfd34c"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 23,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:06:03.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b111465fd01eb289bfd36c"
+  },
+  "name": "Santos Play Gym Top Cage",
+  "des": "Flat top Parrot cage with attached play gym section for exercise out of the cage.\n\nThe integrated play top provides a fun extension on which your bird can play and exercise in safety outside of their cage. There are also two feeding bowls, so your Parrot can enjoy a refreshing drink or tasty snack whilst they play.\n\nThe large full height cage door ensures that you have the best access when it comes to cleaning and maintaining the inside of the cage, meaning no awkward stretching to reach those corners!\n\nThe slide out grilles and trays has also been designed to help keep the overall time required for cleaning to a minimum.\n\nThe Santos Play Top Parrot Cage comes with seed catchers, helping to reduce the amount of waste ending up all over your floor, meaning less time cleaning up.\n\nAll the feeders fix to swing out doors for ease of access and help to reduce any stress to your bird. There was a new design of feeder for 2019, please see the attached images.\n\nThe use of castors ensures that moving your cage is easy, especially useful when cleaning and maintaining the back sections of your Parrot's cage.\n\nThis cage is delivered on a pallet service direct from the manufacture to ensure it arrives with you in perfect condition. The courier is unable to collect / return or dispose of the pallet.",
+  "price": 529.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/wj1yss0lzjn84rp562xf",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329049/products/wj1yss0lzjn84rp562xf.jpg",
+      "_id": {
+        "$oid": "64b111465fd01eb289bfd36d"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 23,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:11:34.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b111c05fd01eb289bfd382"
+  },
+  "name": "Feather Plucking Rescue Pack",
+  "des": "Three top products from BirdCare Company in one pack to help with your feather plucking bird.\n\nThis pack includes Calcivet 50ml, Potent Brew 50ml and EasyBird Complete Pet Supplement 50g. Using these three supplements helps to reduce the nutritional deficiencies and stress which can trigger feather plucking.\n\nThis pack helps with calcium deficiencies, stress and prevents irritation when the new feathers grow.\n\nCalcivet (also known as CalciBoost) is a high quality liquid calcium and Vitamin D3 supplement, especially vital during breeding, and should be given weekly to all birds. African Greys have a particular requirement for this mineral.\n\nPotent Brew is a live probiotic which will increase the vigour of breeding birds, increase chick survival and improve the gut flora of any sick or stressed bird. Due to the nature of this product it can only be stored for 2-3 months before it starts to lose its benefits.\n\nEasy Bird Complete Pet Supplement combines the ingredients from Daily Essentials 3, Calcivet Powder, Bio Plus and a small amount from Pro Boost Super Max.\n\nPlease note: The EasyBird Complete Pet Supplement only has 2 days' worth of calcium in, split over 5 days dosage. The aim is to try and build up the calcium levels within your bird to help stop the nervousness and behavioural issues that can cause feather plucking.\n\nSo using all 3 products together at the same time is perfectly fine.\n\nUse the EasyBird and Calcivet 5 days per week and the Potent Brew daily (for about 1 month). If your bird is eating a moist food, then try and add all 3 products onto this food.",
+  "price": 24.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/etjlte6lxp6pdraagvl8",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329171/products/etjlte6lxp6pdraagvl8.jpg",
+      "_id": {
+        "$oid": "64b111c05fd01eb289bfd383"
+      }
+    }
+  ],
+  "category": "Supplements",
+  "stock": 54,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:13:36.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b111ef5fd01eb289bfd39a"
+  },
+  "name": "Feather Up Feather Conditioning Supplement 50g",
+  "des": "Improve your bird`s feather condition with this easy to use supplement.\n\nGreat for birds with poor feather condition, it contains a balance of vitamins and minerals with added protein to improve feather growth and to ensure a quick stress free moult.",
+  "price": 9.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/tz4bn98apxwb8csuhbef",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329218/products/tz4bn98apxwb8csuhbef.jpg",
+      "_id": {
+        "$oid": "64b111ef5fd01eb289bfd39b"
+      }
+    }
+  ],
+  "category": "Supplements",
+  "stock": 43,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:14:23.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b112235fd01eb289bfd3b4"
+  },
+  "name": "Avipro Avian Prebiotic and Probiotic Supplement 100g",
+  "des": "Highly palatable probiotic, plus soluble fibre prebiotics enhanced with Vitamins A, C and E.\n\nGreat for any sick or stressed bird, Avipro Avian has been developed from the long established Avipro Plus and is available in 100g and 300g sizes.\n\nIt can be used in your bird's drinking water or sprinkled on food, whichever you find the most effective way of feeding. Avipro Avian contains fructo-oligosaccharide soluble fibre, glucose, electrolytes and Vitamins A, C & E to replace what might be lost in sickness and stressful situations.\n\nThe probiotics help to maintain a healthy gut. Vitamins A, C & E help to restore and maintain good levels commonly more quickly used up during times of stress. Electrolytes aid in maintaining adequate levels during bouts of diarrhoea. Soluble fibre prebiotics increases the effectiveness of the probiotics.\n\nUsing Avipro Avian can prove to extremely valuable for supporting your bird at times of stress, or when ill and off their food, undergoing a lot of handling, showing or simply going to a new home.\n\nBirds, which show 'nervous traits' such as feather plucking, which can be linked to abdominal colic etc can also benefit.\n\nIf your bird is under treatment with antibiotics, Avipro Avian can really help. Normal gut flora may be unbalanced by the treatment, which can cause bad bacteria to flourish, many of which can form toxins. If your bird is on an antibiotic coarse, please check with your avian vet before using this product.\n\nComes with a 5ml scoop.",
+  "price": 10.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/gcys9dktfxdh12afhezl",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329270/products/gcys9dktfxdh12afhezl.jpg",
+      "_id": {
+        "$oid": "64b112235fd01eb289bfd3b5"
+      }
+    }
+  ],
+  "category": "Supplements",
+  "stock": 54,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:15:15.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b1125b5fd01eb289bfd3ce"
+  },
+  "name": "Beaphar Bird Worming Liquid - 10ml",
+  "des": "A veterinary preparation for the treatment of roundworm.\n\nThis approved veterinary preparation contains levamisole - a well established treatment for roundworm. Simply dilute with the drinking water to treat individual birds and whole aviaries.\n\nIdeal for use in all birds, but especially Cockatiels that can be particularly prone to worm infestations.\n\nThis bottle treats approx 50 Budgies or 2-3 Parrots.",
+  "price": 6.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/uscuowocsrzbpa3x2p5t",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329326/products/uscuowocsrzbpa3x2p5t.jpg",
+      "_id": {
+        "$oid": "64b1125b5fd01eb289bfd3cf"
+      }
+    }
+  ],
+  "category": "Supplements",
+  "stock": 65,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:16:11.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b112e25fd01eb289bfd3e8"
+  },
+  "name": "Double Flight Cage",
+  "des": "One wide flight cage or two roomy cages.\n\nThe Double Flight Parrot Cage - Antique provides plenty of space for two or more Parrots to stretch their wings and exercise.\n\nUse the dividing wall to create two cages side by side, or remove the wall to create a large space for your birds to move around in.\n\nCleaning and maintaining your bird's Flight Cage is made easy with a large front door for access, and a pull-out grille and tray. Plus, it sits on castors so it can easily be moved.\n\nIt comes with four feeding dishes that fit to swing out doors, so they can be added or removed without the need to open the main door. This means less stress for your birds.",
+  "price": 459.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/sqqapbz7lzlmmtuad2fy",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329461/products/sqqapbz7lzlmmtuad2fy.jpg",
+      "_id": {
+        "$oid": "64b112e25fd01eb289bfd3e9"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 32,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:18:26.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b1130c5fd01eb289bfd402"
+  },
+  "name": "Liberta Alaska Corner Cage with Playgym Top",
+  "des": "A corner cage with a handy play area.\n\nThis Liberta Alaska Corner Parrot Cage with Playgym Top is ideal if space is at a premium in your home.\n\nThis popular corner Parrot cage top with its gym top section provides a dedicated safe place for your Parrot to play, exercise and stretch their wings outside of their Alaska Cage; perfect when a separate play gym stand may not be an option.\n\nComes with two stainless steel bowls for food and water, which are fitted to swing out doors for ease of access, and helps to reduce any stress to your bird.\n\nThe castors make moving your cage is easy, especially useful when cleaning and maintaining the back sections of your Parrot's cage.\nPlease note: This cage has a wire opening door mechanism which may not be suitable for destructive birds.\n\nWe recommend Parrot Cage Cover Size 5 – see product 851004.",
+  "price": 279.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/zbsx0xsgvjisjh24f49m",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329503/products/zbsx0xsgvjisjh24f49m.jpg",
+      "_id": {
+        "$oid": "64b1130c5fd01eb289bfd403"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 23,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:19:08.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b113535fd01eb289bfd41c"
+  },
+  "name": "Arch Top Cage Silver",
+  "des": "Stylish Arch Top Parrot cage with no paint to scratch, chip or flake away.\n\nPlease read the description and check the photographs carefully to confirm the condition is suitable There are blemishes on the back of the cage and on the seed tray.\n\nThis 2nd Edition King`s Aluminium ACA3325 Arch Top Parrot Cage is designed to outlast any powder coated cage on the market. Paint free, rust free without the premium price tag of a stainless steel.\n\nThere is no paint to scratch, chip or flake, instead the aluminium cage frame is anodised, a process which strengthens the metal, increasing durability and allows a safe dye to be absorbed into the metal. The results are stunning.\n\nAluminium is also lighter than other metals traditionally used to make Parrot cages, so these cages are easier to manoeuvre and transport. Plus, it won`t rust.\n\nThe advanced design of the cage means no nuts or bolts are needed to fasten the cage panels together; the sides simply and securely slot together and the cage top holds everything in place.\n\nYour King`s Aluminium ACA2522 Arch Top Parrot Cage is guaranteed zinc and lead free, and comes with all the features you`d expect.\nEasy to clean with large swing out front door for easy access.\nPatented bird proof front door lock.\nRemovable seed catchers.\nSlide out metal grille and tray for easy cleaning.\nHorizontal bars on cage sides,\nVertical bars on front and back.\nEasy access swingout feeder doors, now with stainless steel bowls and holders.\nImproved swing feeder door locks, now a durable metal lock.\nStronger, long-lasting rolling castors.\n\nCages has blue frame with satin silver bars.\n\nPLEASE NOTE: The cage is fully assembled and cannot be shipped. This clearance/seconds cage must be collected from our warehouse in BL0 0NE.\nThis cage is available for viewing, to confirm you’re happy with the condition. Call our customer services number to arrange viewing or pickup.",
+  "price": 649,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/kqqomfv6kawkrksajlqp",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329574/products/kqqomfv6kawkrksajlqp.jpg",
+      "_id": {
+        "$oid": "64b113535fd01eb289bfd41d"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 21,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:20:19.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b1138a5fd01eb289bfd436"
+  },
+  "name": "Indoor Parrot Aviary with Housing Area",
+  "des": "Large metal aviary styled cage with sheltered housing area.\n\nPart of the Rainforest Cage, range this Parrot Aviary with House adds some extra protection for your Parrot.\n\nThere's loads of room for your Parrot or Parrots to play and exercise.\n\nThe large front opening door makes it easier for you to access the cage for cleaning and maintenance, as well as for large furnishings. Swing out feeders allow you to easily replenish food and water without the need to enter the aviary.\n\nThe aviary section has a sleeping/resting house, the perfect place for your bird to retreat to and get the 12 hours of sleep they need every night.\n\nThe metal lock keeps your Parrot secure inside the cage.\n\nThe strong metal construction is coated in a tough powder paint finish which is non-toxic to ensure your Parrot's wellbeing.\n\nPlease Note: The Parrot Aviary is not recommended for outdoor use.\n\nThis cage is delivered on a pallet service direct from the manufacture to ensure it arrives with you in perfect condition. The courier is unable to collect / return or dispose of the pallet.",
+  "price": 1899.99,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "products/cpng2sqmjnz70r9fdpe1",
+      "url": "https://res.cloudinary.com/dfusvbvhg/image/upload/v1689329629/products/cpng2sqmjnz70r9fdpe1.jpg",
+      "_id": {
+        "$oid": "64b1138a5fd01eb289bfd437"
+      }
+    }
+  ],
+  "category": "Cages",
+  "stock": 5,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6431c4067a775988a3a15a1e"
+  },
+  "reviews": [],
+  "createAt": {
+    "$date": "2023-07-14T09:21:14.371Z"
+  },
+  "__v": 0
+}]
