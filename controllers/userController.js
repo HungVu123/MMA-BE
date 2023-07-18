@@ -20,7 +20,7 @@ const registerUser = catchAsyncErrors(async (req, res, next) => {
       url: "https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg",
     },
     gender: "none",
-    birthDate: "1/1/2023",
+    birthDate: "1/1/2001",
   });
 
   sendToken(user, 201, res);
